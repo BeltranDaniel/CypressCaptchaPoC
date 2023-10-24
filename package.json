@@ -1,0 +1,27 @@
+{
+  "name": "captchaautomation",
+  "version": "1.0.0",
+  "description": "Project to automate catpcha",
+  "main": "index.js",
+  "scripts": {
+    "cyopen": "cypress open",
+    "cyrun": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeltranDaniel/CypressCaptchaPoC.git"
+  },
+  "author": "Daniel & Santamaría",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/BeltranDaniel/CypressCaptchaPoC/issues"
+  },
+  "homepage": "https://github.com/BeltranDaniel/CypressCaptchaPoC#readme",
+  "devDependencies": {
+    "cypress": "^13.0.0",
+    "cypress-mochawesome-reporter": "^3.6.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
