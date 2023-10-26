@@ -1,4 +1,4 @@
-FROM cypress/included:13.0.0
+FROM cypress/included:13.0.0 as Cypress
 
 WORKDIR /tests
 

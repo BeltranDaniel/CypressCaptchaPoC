@@ -1,0 +1,16 @@
+services:
+  sonarqube: 
+    image: sonarqube:9.9.2-community
+    container_name: sonarqube
+    restart: always
+    environment: 
+    - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
+    ports:
+    - "9000:9000"
+  cypress:
+    container_name: cypress-captcha
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes: 
+      - ./reports:/workspace/cypress/reports
