@@ -13,4 +13,4 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes: 
-      - ./reports:/workspace/cypress/reports
+      - ./cypress/reports:/cypress-docker/cypress/reports

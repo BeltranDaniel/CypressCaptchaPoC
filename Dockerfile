@@ -1,6 +1,6 @@
 FROM cypress/included:13.0.0 as Cypress
 
-WORKDIR /tests
+WORKDIR /cypress-docker
 
 COPY ./package.json .
 COPY ./cypress.config.js .
