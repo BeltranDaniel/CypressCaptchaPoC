@@ -8,7 +8,8 @@ module.exports = defineConfig({
     embeddedScreenshots: true,
     inlineAssets: true,
     saveAllAttempts: false,
-    reportDir: 'cypress/report'
+    reportDir: 'cypress/report',
+    chromeWebSecurity: false
   },
   e2e: {
     setupNodeEvents(on, config) {
